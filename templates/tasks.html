@@ -1,0 +1,10 @@
+<h2>Rockin</h2>
+
+<form class="" action="/tasks" method="post">
+  <input type="text" name="text" placeholder="New task">
+</form>
+<ol>
+  {{#each tasks}}
+    <li>{{text}}</li>
+  {{/each}}
+</ol>
